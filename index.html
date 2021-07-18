@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ff7f8c3112.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="hero">
+    <div class="hero-content">
+
+      <header>
+        <img src="./assets/hiring-coders.png" alt="logo">
+      </header>
+
+      <div class="title-container">
+        <img src="./assets/black-friday1-min-resized.png" alt="imagem escrito black friday">
+        <div class="title">
+          <h1>Você nunca viu <span>nada igual</span></h1>
+          <p>A melhor oferta. Os melhores descontos. Não perca, vamos cobrir toda a concorrência.</p>
+        </div>
+        <div class="cta">
+          <p>Inscreva-se e seja o primero a receber nossas ofertas</p>
+          <a href="#registration">Inscrever-se</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="registration" id="registration">
+    <form id="form">
+      <h2>Registrar</h2>
+
+      <div class=" input-container">
+        <label for="name">Nome</label>
+        <div class="input-element">
+          <i class="fas fa-key"></i>
+          <input id="input-name" type="text" name="name" required>
+        </div>
+      </div>
+
+      <div class="input-container">
+        <label for="email">Email</label>
+        <div class="input-element">
+          <i class="fas fa-envelope"></i>
+          <input id="input-email" type="email" name="email" required>
+        </div>
+      </div>
+      <button type="submit">Inscrever-se</button>
+    </form>
+
+    <footer>
+      <section>
+
+        <div class="info">
+          <img src="./assets/hiring-coders.png" alt="Logo hiring colders" loading="lazy">
+          <p>
+            Hiring Coders é um bootcamp criado através de uma parceria entre a plataforma de ecommerce <a
+              href="https://vtex.io/io" target="black">VTEX
+              IO</a> e a escola de tecnologia <a href="https://www.gama.academy/" target="blank">Gama Academy</a>. </p>
+          <p>Esta página foi desenvolvida como desafio #1 para o bootcamp.
+          </p>
+        </div>
+
+        <div class="social-media">
+          <a href="https://linkedin.com/in/guilhermanosilva" target="blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/guilhermanosilva" target="blank">
+            <i class="fab fa-github-square"></i>
+          </a>
+        </div>
+
+        <div class="svg-img">
+          <img src="./assets/undraw_Website_builder_re_ii6e.svg" loading="lazy">
+        </div>
+      </section>
+      <p>Desenvolvido por <span>Guilhermano Silva</span></p>
+    </footer>
+  </section>
+
+  <section class="modal">
+    <div>
+      <h1>Obrigado por se cadastrar <span id="user-name"></span></h1>
+      <p>Fique atento atento ao seu endereço de e-mail <span id="user-email"></span>.</p>
+      <p> Em breve enviaremos um e-mail para a sua conta </p>
+    </div>
+  </section>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
